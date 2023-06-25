@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from "next/navigation";
-import Event from "./Event/Event";
+import Event from "./components/Event/Event";
 import Link from "next/link";
 
 export default function Home() {
