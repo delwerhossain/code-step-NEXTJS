@@ -13,6 +13,9 @@ const Header = () => {
         <Link href="/about" className="btn ml-6 mt-2">
           About
         </Link>
+        <Link href="/studentlist" className="btn ml-6 mt-2">
+          Student list
+        </Link>
         <Link href="/login" className="btn ml-6 mt-2">
           Login
         </Link>
