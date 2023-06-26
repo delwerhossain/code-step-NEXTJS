@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 
-const page = () => {
+const Login = () => {
   const route = useRouter();
 
   const navigate = (path) => {
@@ -11,11 +11,11 @@ const page = () => {
   return (
     <div>
       <h1 className="text-6xl">this is Login page</h1>
-      <button className="btn mt-6" onClick={()=>navigate("loginteacher")}>
+      <button className="btn mt-6" onClick={() => navigate("loginteacher")}>
         login teacher
       </button>
     </div>
   );
 };
 
-export default page;
+export default Login;
