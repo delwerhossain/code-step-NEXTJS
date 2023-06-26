@@ -12,6 +12,12 @@ const Header = () => {
       <Link href="/about" className="btn ml-6 mt-2">
         About
       </Link>
+      <Link href="/clientfetch" className="btn ml-6 mt-2">
+        Client Fetch
+      </Link>
+      <Link href="/serverfetch" className="btn ml-6 mt-2">
+        server Fetch
+      </Link>
       <Link href="/studentlist" className="btn ml-6 mt-2">
         Student list
       </Link>
