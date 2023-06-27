@@ -7,6 +7,7 @@ const Header = () => {
   const menu = (
     <>
       <Link className="hover:bg-slate-300 p-2  border-collapse rounded-xl  border-t" href="/">Home</Link>
+      
       <Link className="hover:bg-slate-300 p-2  border-collapse rounded-xl  border-t" href="/about">About</Link>
       <Link className="hover:bg-slate-300 p-2  border-collapse rounded-xl  border-t" href="/clientfetch">Client Fetch</Link>
       <Link className="hover:bg-slate-300 p-2  border-collapse rounded-xl  border-t" href="/serverfetch">server Fetch</Link>
